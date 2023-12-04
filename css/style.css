@@ -12,7 +12,7 @@ body{
 }
 h1, h2, h3, h4, h5, h6, a{
     font-family: 'Niramit', sans-serif;
-    color:#e74c3c;
+    color:#732D85;
 }
 
 p{
@@ -43,7 +43,7 @@ h5{
     display: inline-block;
     height: 2px;
     width: 50px;
-    background-color: #e74c3c;
+    background-color: #732D85;
     border: none;
 }
 
@@ -54,7 +54,8 @@ h5{
 
 }
 .navbar-brand:hover{
-    color: #e74c3c!important;
+    color: #732D85!important;
+
 }
 
 nav.navbar-container{
@@ -70,18 +71,23 @@ nav.navbar-container{
     font-weight: 400;
     padding: 12px 10px;
     letter-spacing: 1px;
-    color: white;
+    color: #732D85;
     transition: all .5s;
     
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover{
-    color: #e74c3c;
+    color: black;
 
 }
 
+
+
 nav.shrink{
     padding: 0;
-    background-color: #e74c3c!important;
+    background-color: #f2f2f2!important;
+    -webkit-box-shadow: 0px 12px 14px -9px rgba(0,0,0,0.48);
+    -moz-box-shadow: 0px 12px 14px -9px rgba(0,0,0,0.48);
+    box-shadow: 0px 12px 14px -9px rgba(0,0,0,0.48);
 }
 
 nav.shrink .navbar-brand:hover{
@@ -105,7 +111,7 @@ nav.shrink .navbar-nav .nav-item .nav-link:hover{
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: #e74c3c;
+    background-color: #732D85;
 }
 
 
@@ -113,8 +119,7 @@ nav.shrink .navbar-nav .nav-item .nav-link:hover{
 #hero{
     text-align: center;
     color:white;
-    background: linear-gradient(rgba(20,20,20,.8),rgba(20,20,20,.8)),
-    url("/img/heroImage.jpg");
+    background: linear-gradient(rgba(20,20,20,.8),rgba(20,20,20,.8));
     background-repeat:no-repeat ;
     background-attachment: scroll;
     background-position: center center;
@@ -139,7 +144,7 @@ nav.shrink .navbar-nav .nav-item .nav-link:hover{
 }
 
 #hero .intro-heading span{
-    color: #e74c3c;
+    color: #732D85;
     font-size: 62px;
 
 }
@@ -152,14 +157,14 @@ nav.shrink .navbar-nav .nav-item .nav-link:hover{
     padding: 8px 28px;
     border-radius: 50px;
     margin: 10px;
-    border: 2px solid #e74c3c;
-    color:#e74c3c;
+    border: 2px solid #732D85;
+    color:#732D85;
     transition: all .5s;
 }
 
 .btn-main:hover{
-    background: #e74c3c;
-    border: 2px solid #e74c3c;
+    background: #732D85;
+    border: 2px solid #732D85;
     color: #fff;
     
 
@@ -179,12 +184,12 @@ nav.shrink .navbar-nav .nav-item .nav-link:hover{
 .whoweare-item i{
     font-size: 42px;
     margin-bottom: 10px;
-    color: #e74c3c;
+    color: #732D85;
 }
 .whoweare-item hr{
     width: 45px;
     height: 2px;
-    background-color: #e74c3c;
+    background-color: #732D85;
     border: none;
     margin: 0 auto;
 }
@@ -193,7 +198,7 @@ nav.shrink .navbar-nav .nav-item .nav-link:hover{
 }
 
 .whoweare-item:hover{
-    background-color: #e74c3c;
+    background-color: #732D85;
     cursor: pointer;
 }
 .whoweare-item:hover i,
@@ -252,7 +257,7 @@ nav.shrink .navbar-nav .nav-item .nav-link:hover{
     width: 50%;
 }
 .bg-orange{
-    background-color: #e74c3c;
+    background-color: #732D85;
 }
 .btn-white{
     text-transform: uppercase;
@@ -267,7 +272,7 @@ nav.shrink .navbar-nav .nav-item .nav-link:hover{
 }
 .btn-white:hover{
     background: white;
-    color: #e74c3c;
+    color: #732D85;
     border: 1px solid #fff;
 }
 
@@ -347,11 +352,11 @@ ul.social-buttons li a {
     color: #fff;
     border-radius: 100%;
     outline: none;
-    background-color: #e74c3c;
+    background-color: #732D85;
     transition: all .4s ;
 }
 ul.social-buttons li a:hover{
-    color:   #e74c3c;
+    color:   #732D85;
     border-radius: 100%;
     outline: none;
     background-color:#fff;
@@ -456,12 +461,12 @@ ul.social-buttons li a:hover{
 }
 
 .form-control:focus{
-    border-color: #e74c3c;
+    border-color: #732D85;
     box-shadow: none; 
 }
 
 .btn-contact{
-    background-color: #e74c3c;
+    background-color: #732D85;
     color: #fff;
 }
 
